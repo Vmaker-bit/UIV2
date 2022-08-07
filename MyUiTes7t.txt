@@ -21,7 +21,8 @@ end)
 MainPage:addButton("Newhub" ,function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Xeter"))()
 end)
-
+MainPage:addButton("String Hub" ,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
 --Fs
 local fstab = UI:addPage("Fighting Stle",1,true,6)
  
